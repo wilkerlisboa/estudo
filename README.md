@@ -1,1 +1,2 @@
-<h1 style="text-align: center;">Teste de hospedagem Google Cloud</h1>
+<h1 align="center">Teste de hospedagem Google Cloud</h1>
+
