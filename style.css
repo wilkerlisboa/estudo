@@ -1,0 +1,105 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f94d12;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-faculdade,
+.logo-curso {
+    width: 180px;
+    height: auto;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+/* Informações da disciplina */
+.info-disciplina {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.4em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .logo-faculdade,
+    .logo-curso {
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    
+    h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .logo-faculdade,
+    .logo-curso {
+        width: 150px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .info-disciplina {
+        margin-top: 20px;
+    }
+}
